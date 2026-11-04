@@ -89,6 +89,8 @@ li {
 /* Piè di pagina */
 footer {
     padding: 15px;
+
+    table, th, td (border:1px solid black;)
     text-align: center;
     font-size: 14px;
     color: #526174;
