@@ -96,7 +96,3 @@ footer {
 caption {font-weight: bold; color: blue}
 th {background-color: yellow;}
 td {text-align: center;}
-table, th, td {border: 1px solid black;}
-caption {font-weight: bold; color: blue}
-th {background-color : yellow;}
-td {text-align: center;}
