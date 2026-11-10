@@ -96,3 +96,41 @@ footer {
 caption {font-weight: bold; color: blue}
 th {background-color: yellow;}
 td {text-align: center;}
+
+/* Esempio di box posizionato (teoria del posizionamento a pag. 204) */
+.box-posizionato {
+    position: relative; /* Modifica la posizione del box rispetto alla sua posizione di default */
+    top: 5px;
+    background-color: #e6f0fa;
+    border-left: 4px solid #244a73;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+/* Esempio di immagine formattata come blocco e centrata (pag. 209) */
+img.centrata-e-formattata {
+    display: block;        /* Rende l'immagine un blocco */
+    width: 60%;            /* Ridimensionamento percentuale (es. al 60%) */
+    max-width: 300px;      /* Larghezza massima */
+    height: auto;          /* Mantiene le proporzioni originali */
+    margin: 20px auto;     /* Centra orizzontalmente con i margini auto */
+    border: 4px solid #244a73; /* Cornice spessa come da teoria */
+    padding: 5px;          /* Padding interno attorno all'immagine */
+    background-color: white;
+}
+
+/* Esempio di stile avanzato per i link testuali nel main (pag. 207) */
+main a {
+    color: #17334f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Cambia colore al passaggio del mouse sul link */
+main a:hover {
+    color: #b54e00;
+    background-color: #fff3cd; /* Evidenziazione leggera */
+}
+
+
+
